@@ -8,7 +8,7 @@ public class Ogrenci {
     String ogrencino;
     String sinif;
     double ortalama;
-    boolean isgecti=true;
+    boolean isgecti=true;   // ilerde kullanırız diye yazdık. kalsın.
 
     Ogrenci(String isim, String ogrencino, String sinif,Ders ders1,Ders ders2,Ders ders3){
         this.isim       = isim;
