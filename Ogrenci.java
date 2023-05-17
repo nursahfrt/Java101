@@ -10,11 +10,6 @@ public class Ogrenci {
     double ortalama;
     boolean isgecti=true;
 
-    int sozlunotu1;
-    int sozlunotu2;
-    int sozlunotu3;
-
-
     Ogrenci(String isim, String ogrencino, String sinif,Ders ders1,Ders ders2,Ders ders3){
         this.isim       = isim;
         this.ogrencino  = ogrencino;
