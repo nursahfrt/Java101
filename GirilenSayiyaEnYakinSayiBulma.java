@@ -19,8 +19,12 @@ public class GirilenSayiyaEnYakinSayiBulma {
                 System.out.println("En yakın max değer \t= " + max);
                 //System.out.println(Arrays.binarySearch(liste,max));
                 index = Arrays.binarySearch(liste,max)-1;
-                // System.out.println(index);
-                System.out.println("En yakın min değer \t= " + liste[index]);
+                if (sayi!= liste[index]) {
+                    // System.out.println(index);
+                    System.out.println("En yakın min değer \t= " + liste[index]);
+                }else{
+                    System.out.println("En yakın min değer \t= " + liste[index-1]);
+                }
                 break;
             }
         }
